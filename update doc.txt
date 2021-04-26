@@ -1,0 +1,80 @@
+------------ VERSION - 14.0: Release on Feb-2021 ------------
+Frontend HTML with Bootstarp v5 (4 home demo with 30+ Inner Pages)
+
+------------ VERSION - 13.0: Release on Jan-2021 ------------
+All New Refresh Design with Bootstarp v5 (Dark, Light & Horizontal with RTL) with All 30 Dashboard in New Design
+Also Bootstarp v4 Available (Both Separate Packages)
+
+------------ VERSION - 12.0: Release on Jan-2021 ------------
+[+] 2 New Dashboard  (in classic Package)
+Classic, Classic Dark and Classic Semidark
+
+------------ VERSION - 11.0: Release on Aug-2020 ------------
+New classic Horizontal Package Added (Only In Sass With RTL & LTR)
+Classic Horizontal, Classic Horizontal Dark
+
+------------ VERSION - 10.0: Release on Feb-2020 ------------
+New classic Package Added (Only In Sass With RTL & LTR) (2 Dashboard)
+Classic, Classic Dark and Classic Semidark
+
+------------ VERSION - 9.0: Release on DEC-2019 ------------
+New Multi color Dark Package Added (Only In Sass With RTL & LTR) (9 Dashboard)
+Bootstarp v4.4.1 Update In (Sass only)
+
+------------ VERSION - 8.1: Release on OCT-2019 ------------
+[+] 1 New Dashboard  (1 Dark in Sass)
+
+------------ VERSION - 8.0: Release on July-2019 ------------
+Sass Version Added (With Dark, Light and RTL Ready)
+Css Improve
+All Dashboard and Pages Ready With Sass
+
+------------ VERSION - 7.5: Release on June-2019 ------------
+
+[+] 2 New Dashboard  (1 Dark and 1 Light)
+
+------------ VERSION - 7.4: Release on May-2019 ------------
+
+[+] 4 New Dashboard (2 Dark and 2 Light)
+
+------------ VERSION - 7.3: Release on January-2019 ------------
+
+[+] Bug Fixes for sidebar and collapsed icon view
+
+------------ VERSION - 7.2: Release on October-2018 ------------
+
+[+] Bootstarp 4.1.3
+[+] Bootstrap Colorpicker v2.5.2
+[+] Datepicker for Bootstrap v1.8.0
+[+] Chart.js Version: 2.7.3
+[+] FullCalendar v3.9.0
+[+] GMaps.js v0.4.25
+[+] gridstack.js 1.0.0-dev
+[+] jQuery v3.3.1
+[+] Peity jQuery plugin version 3.3.0
+[+] WebTicker 3.1.0
+
+------------ VERSION - 7.1: Release on June-2018 ------------
+[+] 1 New Dark Crypto Dashboard
+
+------------ VERSION - 7: Release on June-2018 ------------
+[+] 2 New Dashboards Added
+
+------------ VERSION - 5: Release on June-2018 ------------
+[+] New Dashboards Added
+
+------------ VERSION - 4: Release on April-2018 ------------
+[+] 2 New Dashboards Added
+[+] Stock Market Dashboard - NEW
+[+] Business Analytics Dashboard - NEW
+[+] CSS Fixes
+
+------------ VERSION - 3: Release on April-2018 ------------
+[+] New Dashboard Added
+[+] CSS Fixes
+
+------------ VERSION - 2: Release on March-2018 ------------
+[+] New Dashboard Added
+
+------------ VERSION - 1: Initial Release on March-2018 ------------
+[+] Initial Release
