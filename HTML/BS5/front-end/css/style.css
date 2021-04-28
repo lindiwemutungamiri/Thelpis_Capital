@@ -25772,7 +25772,8 @@ header a, header button, header input {
   bottom: 0px;
   background-color: #f3f6f9;
   padding: 20px;
-  z-index: 999999; }
+  z-index: 999999;
+  display: none !important; }
 
 #gdpr-cookie-message h4 {
   color: #f64e60;
