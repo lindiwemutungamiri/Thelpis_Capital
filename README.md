@@ -1,1 +1,3 @@
 # Thelpis_Capital
+
+Thelpis Capital is an African start-up that abcde ..........
