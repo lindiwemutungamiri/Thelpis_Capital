@@ -4,7 +4,7 @@ USE THELPIS;
 
 CREATE TABLE user_login(
     UserID INT AUTO_INCREMENT,
-    Email VARCHAR(70),
+    Email VARCHAR(70) UNIQUE,
     Full_Name VARCHAR(150),
     Pass VARCHAR(150),
     primary key(UserID)

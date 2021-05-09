@@ -20,10 +20,11 @@ if(isset($_POST['userRegister'])){
         $errors = "Email Already Exists";
     }else{
         if($pass1 == $pass2){
-            $insertQuery = "INSERT INTO user_login VALUES(0,'$userMail','$fullName', '$pass1')";
+            $pass2 = md5($pass1);
+            $insertQuery = "INSERT INTO user_login VALUES(0,'$userMail','$fullName', '$pass2')";
             $execInsert = mysqli_query($conn,$insertQuery);
             if($execInsert){
-                header('location:login.html');
+                header('location:loginPage.php');
             }
         }else{
             $passError = "Passwords Do Not Match";

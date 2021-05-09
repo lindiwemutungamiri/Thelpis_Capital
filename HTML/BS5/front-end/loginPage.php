@@ -1,5 +1,6 @@
 ﻿<?php
-require "register.php";
+
+require "login.php"
 
 ?>
 
@@ -13,7 +14,7 @@ require "register.php";
     <meta name="author" content="">
     <link rel="icon" href="../images/favicon.ico">
 
-    <title>Crypto Currency HTML Template</title>
+    <title>Login | Thelpis Capital</title>
     
 	<!-- Vendors Style-->
 	<link rel="stylesheet" href="css/vendors_css.css">
@@ -38,41 +39,50 @@ require "register.php";
 				</button>	
 			</div>								
 			<ul class="menu">				
+		
 						<li><a href="index3.html">Home </a></li>		
 						<li><a href="currency_converter.html">Currency Converter</a></li>
 						<li><a href="live_coin.html">Live Coin Chart</a></li>
-						<li><a href="https://paxful.com/" target="_blank">Instant Buy & Sell</a></li>
-						<li class="megamenu">
-							<a href="#">User Pages</a>
-							<div class="megamenu-content">
-								<div class="row">
-									<div class="col-lg-3 col-3">
-										<ul class="list-group">
-											<li><h4 class="menu-title">User Pages</h4></li>
-											<li><a href="faqs.html"><i class="ti-arrow-circle-right me-10"></i>FAQs</a></li>
-											<li><a href="membership.html"><i class="ti-arrow-circle-right me-10"></i>Membership</a></li>
-										</ul>
-									</div>
-									<div class="col-lg-3 col-3">
-										<ul class="list-group">
-											<li><h4 class="menu-title">Academy</h4></li>
-											<li><a href="academy.html"><i class="ti-arrow-circle-right me-10"></i>Academy</a></li>
-											<li><a href="loginPage.php"><i class="ti-arrow-circle-right me-10"></i>Login</a></li>
-											<li><a href="registerPage.php"><i class="ti-arrow-circle-right me-10"></i>Register</a></li>
-											<!--<li><a href="forgot_pass.html"><i class="ti-arrow-circle-right me-10"></i>Forgot Password</a></li>-->
-										</ul>
-									</div>
-										
-								</div>
+						<li>
+							<a onclick="addElement();">Buy &amp; Sell</a>
+							<div id="confirm">
+								<div class="message" style="text-align: center; padding-top: 50px; font-size: 16px;">You are about to be redirected to Paxful.</div><br>
+								<button class="yes"><a href="https://paxful.com" class="px-10 pt-15 pb-10" target="_blank"><div class="btn btn-primary py-5">Yes, redirect</div></a></button>
+								<button class="yes"><a href="index3.html" class="px-10 pt-15 pb-10"><div class="btn btn-primary py-5">Stay on Page</div></a></button>
 							</div>
-						</li>	
-				<!--<li>
+						</li>
+				<li class="megamenu">
+					<a href="#">User Pages</a>
+					<div class="megamenu-content">
+						<div class="row">
+							<div class="col-lg-3 col-3">
+								<ul class="list-group">
+									<li><h4 class="menu-title">User Pages</h4></li>
+									<li><a href="faqs.html"><i class="ti-arrow-circle-right me-10"></i>FAQs</a></li>
+									<li><a href="membership.html"><i class="ti-arrow-circle-right me-10"></i>Membership</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-3 col-3">
+								<ul class="list-group">
+									<li><h4 class="menu-title">Academy</h4></li>
+									<li><a href="academy.html"><i class="ti-arrow-circle-right me-10"></i>Academy</a></li>
+									<li><a href="loginPage.php"><i class="ti-arrow-circle-right me-10"></i>Login</a></li>
+									<li><a href="registerPage.php"><i class="ti-arrow-circle-right me-10"></i>Register</a></li>
+									<!--<li><a href="forgot_pass.html"><i class="ti-arrow-circle-right me-10"></i>Forgot Password</a></li> -->
+								</ul>
+							</div>
+								
+						</div>
+					</div>
+				</li>	
+				<!-- <li>
 					<a href="blog_grid_2.html">Blog</a>
-				</li>				
+				</li>
 				<li>
 					<a href="contact_us.html">Contact</a>
-				</li>-->
+				</li> -->
 				<li><a href="about.html"><i class="ti-arrow-circle-right me-10"></i>About Us</a></li>
+
 			</ul>
 			<!--<ul class="attributes">
 				<li class="d-md-block d-none"><a href="registerPage.php" class="px-10 pt-15 pb-10"><div class="btn btn-primary py-5">Register Now</div></a></li>
@@ -94,10 +104,10 @@ require "register.php";
 			<div class="row">
 				<div class="col-12">
 					<div class="text-center">						
-						<h2 class="page-title text-white">Register</h2>
+						<h2 class="page-title text-white">Login</h2>
 						<ol class="breadcrumb bg-transparent justify-content-center">
 							<li class="breadcrumb-item"><a href="#" class="text-white-50"><i class="mdi mdi-home-outline"></i></a></li>
-							<li class="breadcrumb-item text-white active" aria-current="page">Register</li>
+							<li class="breadcrumb-item text-white active" aria-current="page">Login</li>
 						</ol>
 					</div>
 				</div>
@@ -112,61 +122,53 @@ require "register.php";
 				<div class="col-lg-5 col-md-5 col-12">
 					<div class="box box-body">
 						<div class="content-top-agile pb-0 pt-20">
-							<h2 class="text-primary">Get started with Us</h2>
-							<p class="mb-0">Register a New Membership</p>							
+							<h2 class="text-primary">Let's Get Started</h2>
+							<p class="mb-0">Sign in to continue to CryptoCurrency.</p>							
 						</div>
 						<div class="p-40">
-							<form action="registerPage.php" method="post">
+							<form action="loginPage.php" method="POST">
 								<div class="form-group">
 									<div class="input-group mb-15">
 										<span class="input-group-text bg-transparent"><i class="ti-user"></i></span>
-										<input type="text" name = "fullName" class="form-control ps-15 bg-transparent" placeholder="Full Name" required>
+										<input name = "userMail" type="email" class="form-control ps-15 bg-transparent" placeholder="Username">
 									</div>
 								</div>
 								<div class="form-group">
 									<div class="input-group mb-15">
-										<span class="input-group-text bg-transparent"><i class="ti-email"></i></span>
-										<input type="email" name = "userMail" class="form-control ps-15 bg-transparent" placeholder="Email" required>
-									</div>
-								</div>
-								<div class="form-group">
-									<div class="input-group mb-15">
-										<span class="input-group-text bg-transparent"><i class="ti-lock"></i></span>
-										<input type="password" name = "pass1" class="form-control ps-15 bg-transparent" placeholder="Password" required>
-									</div>
-								</div>
-								<div class="form-group">
-									<div class="input-group mb-15">
-										<span class="input-group-text bg-transparent"><i class="ti-lock"></i></span>
-										<input type="password" name = "pass2" class="form-control ps-15 bg-transparent" placeholder="Retype Password" required>
+										<span class="input-group-text  bg-transparent"><i class="ti-lock"></i></span>
+										<input name = "userPass" type="password" class="form-control ps-15 bg-transparent" placeholder="Password">
 									</div>
 								</div>
 								  <div class="row">
-									<div class="col-12">
+									<div class="col-6">
 									  <div class="checkbox ms-5">
-										<!-- <input type="checkbox" id="basic_checkbox_1"> -->
-										<label for="basic_checkbox_1" class="form-label">Please Note: By choosing to Register, you are agreeing to the <a href="#" class="text-warning"><b>Terms and Conditions</b></a>.</label>
+										<input type="checkbox" id="basic_checkbox_1">
+										<label for="basic_checkbox_1" class="form-label">Remember Me</label>
+									  </div>
+									</div>
+									<!-- /.col -->
+									<div class="col-6">
+									 <div class="fog-pwd text-end">
+										<a href="javascript:void(0)" class="hover-warning"><i class="ion ion-locked"></i> Forgot password?</a><br>
 									  </div>
 									</div>
 									<!-- /.col -->
 									<div class="col-12 text-center">
-									  <button type="submit" name = "userRegister" class="btn btn-info w-p100 mt-15">Register</button></br>
+									  <button type="submit" name = "loginSubmit" class="btn btn-info w-p100 mt-15">SIGN IN</button>
 									  <h5></h5>
 									  <h5 style="text-decoration: underline; color: red;"><?php echo $errors; ?></h5>
-									  <h5 style="text-decoration: underline; color: red;"><?php	echo $passError; ?></h5>
-									  <h5 style="text-decoration: underline; color: red;"><?php echo $processError; ?></h5>
 									</div>
 									<!-- /.col -->
 								  </div>
-							</form>				
+							</form>	
 							<div class="text-center">
-								<p class="mt-15 mb-0">Already have an account?<a href="loginPage.php" class="text-danger ms-5"> Log In</a></p>
-							</div>
+								<p class="mt-15 mb-0">Don't have an account? <a href="registerPage.php" class="text-warning ms-5">Register</a></p>
+							</div>	
 						</div>
 					</div>								
 
 					<div class="text-center">
-					  <p class="mt-20">- Register With -</p>
+					  <p class="mt-20">- Login With -</p>
 					  <p class="d-flex gap-items-2 mb-0 justify-content-center">
 						  <a class="btn btn-social-icon btn-round btn-facebook" href="#"><i class="fa fa-facebook"></i></a>
 						  <a class="btn btn-social-icon btn-round btn-twitter" href="#"><i class="fa fa-twitter"></i></a>
@@ -177,7 +179,7 @@ require "register.php";
 			</div>
 		</div>
 	</section>	
-	<section class="bg-light py-30">
+	<!--<section class="bg-light py-30">
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-9 col-12">
@@ -193,7 +195,7 @@ require "register.php";
 				</div>
 			</div>
 		</div>
-	</section>
+	</section>-->
 	
 	<footer class="footer_three">
 		<div class="footer-top bg-dark3 pt-50">
@@ -295,5 +297,3 @@ require "register.php";
 	
 </body>
 </html>
-
-?>
