@@ -1,0 +1,203 @@
+[33mcommit 6fc3073ff2b8e5b99e36f23a1005cf191c4b3013[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 196d09ec 789a4b37
+Author: Nana <NanaBoakye1738@gmail.com>
+Date:   Mon May 10 17:37:46 2021 +0000
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 196d09ec6dc15f7933d532f16556b4f7617b7f88[m
+Author: Nana <NanaBoakye1738@gmail.com>
+Date:   Mon May 10 17:23:09 2021 +0000
+
+    Auto stash before revert of "Set register page"
+
+[33mcommit 64ca4651301e49bb804ba18b87e385b9c21c42ce[m
+Author: djinnsend <nanaboakye1738@gmail.com>
+Date:   Sun May 9 20:19:47 2021 +0000
+
+    Revert "Set register page"
+    
+    This reverts commit 684bb0edfe07d9483b6c9fb0f29d39f355462c2e.
+
+[33mcommit 789a4b374cd1a96716932f99183c2fd469e82504[m
+Author: djinnsend <nanaboakye1738@gmail.com>
+Date:   Sun May 9 21:17:58 2021 +0000
+
+    Done login page
+
+[33mcommit eb6d375b7221e73ed950a1b95dff9d5e5bf619f2[m
+Author: djinnsend <nanaboakye1738@gmail.com>
+Date:   Sun May 9 20:46:13 2021 +0000
+
+    Edited menu bar on all pages
+
+[33mcommit 684bb0edfe07d9483b6c9fb0f29d39f355462c2e[m
+Author: djinnsend <nanaboakye1738@gmail.com>
+Date:   Sun May 9 20:19:47 2021 +0000
+
+    Set register page
+
+[33mcommit da7aa76b2ec97ed76de8638c73e5cf5ec7087c04[m
+Merge: 9fa82eac 16d87a50
+Author: lindiwemutungamiri <lindiwemutungamiri23@gmail.com>
+Date:   Tue May 4 16:56:23 2021 +0000
+
+    Merge branch 'master' of https://github.com/lindiwemutungamiri/Thelpis_Capital
+
+[33mcommit 9fa82eac0461772cb1a7c4f2284a3e0041010b3e[m
+Author: lindiwemutungamiri <lindiwemutungamiri23@gmail.com>
+Date:   Tue May 4 16:55:58 2021 +0000
+
+    adding everything
+
+[33mcommit 16d87a505272bbd6cc3ba25289b6c91b8933b2d4[m
+Author: Lorraine Makuyana <58143262+lorrainemakuyana@users.noreply.github.com>
+Date:   Tue May 4 16:27:16 2021 +0000
+
+    currency converter done
+
+[33mcommit a126cda148efec7d0b45a1b2d1f7304fa05a0279[m
+Author: lindiwemutungamiri <lindiwemutungamiri23@gmail.com>
+Date:   Tue May 4 11:27:14 2021 +0000
+
+    home page changes
+
+[33mcommit 24145477aa53a6d59735778e0673f9f25f65bd48[m
+Author: lindiwemutungamiri <lindiwemutungamiri23@gmail.com>
+Date:   Tue May 4 11:20:36 2021 +0000
+
+    added 20.5
+
+[33mcommit 82e228d1a09287b7d95febb9e2d1f81b5603ea8a[m
+Author: lindiwemutungamiri <lindiwemutungamiri23@gmail.com>
+Date:   Tue May 4 11:19:34 2021 +0000
+
+    homepage numbers
+
+[33mcommit 64ea7595399171cb25f65ed55510945dc7d2f9dc[m
+Author: Lorraine Makuyana <58143262+lorrainemakuyana@users.noreply.github.com>
+Date:   Tue May 4 11:12:12 2021 +0000
+
+    update images
+
+[33mcommit a41eb0c97be7c0a46bfb923a365563a929a34a7c[m
+Author: Lorraine Makuyana <58143262+lorrainemakuyana@users.noreply.github.com>
+Date:   Tue May 4 07:52:11 2021 +0000
+
+    edited FAQs
+
+[33mcommit 6ee6bf196fe510fc2ddc51ce9d4d1a780cb7cbe0[m
+Author: lindiwemutungamiri <lindiwemutungamiri23@gmail.com>
+Date:   Mon May 3 23:44:36 2021 +0000
+
+    added the data band to all pages
+
+[33mcommit eef5d84e819ec9db92bb8a2532114f94a44b23d1[m
+Author: lindiwemutungamiri <lindiwemutungamiri23@gmail.com>
+Date:   Mon May 3 23:26:30 2021 +0000
+
+    redesigned the home page for the blog. Added nana and laju pictures
+
+[33mcommit df367400087db7bab5b137f0127f5b447891e716[m
+Author: lindiwemutungamiri <lindiwemutungamiri23@gmail.com>
+Date:   Mon May 3 22:56:47 2021 +0000
+
+    finished adding blogs, videos, podcasts.
+
+[33mcommit 37bcc4b11ab954320074ff7932098f5c862bb493[m
+Author: lindiwemutungamiri <lindiwemutungamiri23@gmail.com>
+Date:   Mon May 3 20:59:21 2021 +0000
+
+    about page finished
+
+[33mcommit 037cba1f4445a67db0416f8b29e241aee481483c[m
+Author: lindiwemutungamiri <lindiwemutungamiri23@gmail.com>
+Date:   Mon May 3 19:42:46 2021 +0000
+
+    currency convertor home page edited
+
+[33mcommit cf28ed2005bae1065bc2333930cbea74d8ffd65e[m
+Author: lindiwemutungamiri <lindiwemutungamiri23@gmail.com>
+Date:   Mon May 3 19:36:17 2021 +0000
+
+    changed headers on every page
+
+[33mcommit cbd53458d6f3af720f55c327425c49927a729b06[m
+Author: lindiwemutungamiri <lindiwemutungamiri23@gmail.com>
+Date:   Mon May 3 19:21:43 2021 +0000
+
+    completed home page
+
+[33mcommit c6e8e14c94eb6cb7b12bbc4521510c086ae40a26[m
+Author: lindiwemutungamiri <lindiwemutungamiri23@gmail.com>
+Date:   Mon May 3 19:15:40 2021 +0000
+
+    finished home page
+
+[33mcommit ba2ab2c6cb0befa529d21ab12a4f01fd1a660b23[m
+Merge: 45b02191 ef5d1401
+Author: lindiwemutungamiri <lindiwemutungamiri23@gmail.com>
+Date:   Mon May 3 18:23:38 2021 +0000
+
+    Merge branch 'master' of https://github.com/lindiwemutungamiri/Thelpis_Capital
+
+[33mcommit 45b02191a369188e91e956261592811b2bb5e16f[m
+Author: lindiwemutungamiri <lindiwemutungamiri23@gmail.com>
+Date:   Mon May 3 18:23:01 2021 +0000
+
+    edited home page content
+
+[33mcommit ef5d14019a8b12f65638ba8a63eaee6b42da4405[m
+Author: Lorraine Makuyana <58143262+lorrainemakuyana@users.noreply.github.com>
+Date:   Mon May 3 17:57:42 2021 +0000
+
+    edited blog page
+
+[33mcommit b6a28d8d531a4d2a3fc07508fd2b6c3f32b821dd[m
+Author: Lorraine Makuyana <58143262+lorrainemakuyana@users.noreply.github.com>
+Date:   Thu Apr 29 11:01:15 2021 +0000
+
+    cleaned up blog, live coin, about, currency converter
+
+[33mcommit 6ec59165d269eb5ab2723923de162a95d901ef39[m
+Merge: 6967c4d2 265d46dc
+Author: lindiwemutungamiri <lindiwemutungamiri23@gmail.com>
+Date:   Wed Apr 28 17:45:48 2021 +0000
+
+    Merge branch 'master' of https://github.com/lindiwemutungamiri/Thelpis_Capital
+
+[33mcommit 6967c4d28cb654c757eb29752ab6b629c7ea22e4[m
+Author: lindiwemutungamiri <lindiwemutungamiri23@gmail.com>
+Date:   Wed Apr 28 17:15:01 2021 +0000
+
+    changed the about page
+
+[33mcommit 265d46dc961bb0f33213be9a894a00f164bf96ca[m
+Author: Lorraine Makuyana <58143262+lorrainemakuyana@users.noreply.github.com>
+Date:   Wed Apr 28 16:07:01 2021 +0000
+
+    edited full contact us page
+
+[33mcommit 41fe722cf0c4b6bc05c7e04ca7445894d21c88c0[m
+Author: lindiwemutungamiri <lindiwemutungamiri23@gmail.com>
+Date:   Tue Apr 27 11:13:52 2021 +0000
+
+    changed home page, header and footer
+
+[33mcommit 646e97cf709bba10cb2c9d6c4c865be2c55e4b38[m
+Author: lindiwemutungamiri <lindiwemutungamiri23@gmail.com>
+Date:   Mon Apr 26 21:01:29 2021 +0000
+
+    home page changes
+
+[33mcommit a1875fe8e6b21cbb7f7db9bcba98f1940897fe9c[m
+Author: lindiwemutungamiri <lindiwemutungamiri23@gmail.com>
+Date:   Mon Apr 26 12:08:12 2021 +0000
+
+    pushing all code first time
+
+[33mcommit a4dd82915a5c428d2604f054dcda08f6b4442d42[m
+Author: lindiwemutungamiri <lindiwemutungamiri23@gmail.com>
+Date:   Mon Apr 26 12:03:53 2021 +0000
+
+    first push
