@@ -1,4 +1,4 @@
-# Thelpis Capital
+# Thelpis Capital - How to Crypto
 
 Thelpis Capital is an African start-up, creating a financial system that makes it easy for Africans to understand, trade, and invest in cryptocurrencies. Our journey stems from personal experiences of having difficulties buying and selling cryptocurrencies on the market based on our African geographic location. We are providing an easy solution that enables Africans to trade crypto markets with ease.  
 
