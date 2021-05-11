@@ -566,3 +566,36 @@ $(function () {
         }
     }
 })(jQuery);
+
+var options = {
+	title: 'This website uses cookies.<br> The General Data Protection Regulation (GDPR) and the ePrivacy Directive (ePR) affect how you as a website owner may use cookies and online tracking of visitors from the EU.',
+	message: 'We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services',
+	delay: 600,
+	expires: 1,
+	link: '#privacy',
+	onAccept: function(){
+		var myPreferences = $.fn.ihavecookies.cookie();
+		console.log('Yay! The following preferences were saved...');
+		console.log(myPreferences);
+	},
+	uncheckBoxes: true,
+	acceptBtnLabel: 'Accept Cookies',
+	moreInfoLabel: '',
+	cookieTypesTitle: 'Select which cookies you want to accept',
+	fixedCookieTypeLabel: 'Essential',
+	fixedCookieTypeDesc: 'These are essential for the website to work correctly.'
+}
+
+$(document).ready(function() {
+	$('body').ihavecookies(options);
+
+	if ($.fn.ihavecookies.preference('marketing') === true) {
+		console.log('This should run because marketing is accepted.');
+	}
+
+	$('#ihavecookiesBtn').on('click', function(){
+		$('body').ihavecookies(options, 'reinit');
+	});
+});
+
+
