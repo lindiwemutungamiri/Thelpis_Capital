@@ -5,28 +5,29 @@ require "adminRegister.php";
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../images/favicon.ico">
 
-    <title>Crypto Currency HTML Template</title>
-    
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="../images/favicon.ico">
+
+	<title>Crypto Currency HTML Template</title>
+
 	<!-- Vendors Style-->
 	<link rel="stylesheet" href="css/vendors_css.css">
-	  
-	<!-- Style-->  
+
+	<!-- Style-->
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/skin_color.css">
-     
-  </head>
+
+</head>
 
 <body class="theme-warning">
-	
-	
+
+
 	<header>
 		<nav hidden class="nav-white nav-transparent dark-overlay">
 			<div class="nav-header">
@@ -35,49 +36,55 @@ require "adminRegister.php";
 				</a>
 				<button class="toggle-bar">
 					<span class="ti-menu"></span>
-				</button>	
-			</div>								
-			<ul class="menu">				
-						<li><a href="index3.html">Home </a></li>		
-						<li><a href="currency_converter.html">Currency Converter</a></li>
-						<li><a href="live_coin.html">Live Coin Chart</a></li>
-						<li><a href="https://paxful.com/" target="_blank">Instant Buy & Sell</a></li>
-						<li class="megamenu">
-							<a href="#">User Pages</a>
-							<div class="megamenu-content">
-								<div class="row">
-									<div class="col-lg-3 col-3">
-										<ul class="list-group">
-											<li><h4 class="menu-title">User Pages</h4></li>
-											<li><a href="faqs.html"><i class="ti-arrow-circle-right me-10"></i>FAQs</a></li>
-											<li><a href="membership.html"><i class="ti-arrow-circle-right me-10"></i>Membership</a></li>
-										</ul>
-									</div>
-									<div class="col-lg-3 col-3">
-										<ul class="list-group">
-											<li><h4 class="menu-title">Academy</h4></li>
-											<li><a href="academyNana.php"><i class="ti-arrow-circle-right me-10"></i>Academy</a></li>
-											<li><a href="loginPage.php"><i class="ti-arrow-circle-right me-10"></i>Login</a></li>
-											<li><a href="registerPage.php"><i class="ti-arrow-circle-right me-10"></i>Register</a></li>
-											<li><a href="forgot_pass.html"><i class="ti-arrow-circle-right me-10"></i>Forgot Password</a></li>
-										</ul>
-									</div>
-										
-								</div>
+				</button>
+			</div>
+			<ul class="menu">
+				<li><a href="index3.html">Home </a></li>
+				<li><a href="currency_converter.html">Currency Converter</a></li>
+				<li><a href="live_coin.html">Live Coin Chart</a></li>
+				<li><a href="https://paxful.com/" target="_blank">Instant Buy & Sell</a></li>
+				<li class="megamenu">
+					<a href="#">User Pages</a>
+					<div class="megamenu-content">
+						<div class="row">
+							<div class="col-lg-3 col-3">
+								<ul class="list-group">
+									<li>
+										<h4 class="menu-title">User Pages</h4>
+									</li>
+									<li><a href="faqs.html"><i class="ti-arrow-circle-right me-10"></i>FAQs</a></li>
+									<li><a href="membership.html"><i class="ti-arrow-circle-right me-10"></i>Membership</a></li>
+								</ul>
 							</div>
-						</li>	
+							<div class="col-lg-3 col-3">
+								<ul class="list-group">
+									<li>
+										<h4 class="menu-title">Academy</h4>
+									</li>
+									<li><a href="academyNana.php"><i class="ti-arrow-circle-right me-10"></i>Academy</a></li>
+									<li><a href="adminLoginPage.php"><i class="ti-arrow-circle-right me-10"></i>Login Admin</a></li>
+									<li><a href="adminRegisterPage.php"><i class="ti-arrow-circle-right me-10"></i>Register Admin</a></li>
+									<li><a href="forgot_pass.html"><i class="ti-arrow-circle-right me-10"></i>Forgot Password</a></li>
+								</ul>
+							</div>
+
+						</div>
+					</div>
+				</li>
 				<li>
 					<a href="blog_grid_2.html">Blog</a>
-				</li>				
+				</li>
 				<li>
 					<a href="contact_us.html">Contact</a>
 				</li>
 				<li><a href="about.html"><i class="ti-arrow-circle-right me-10"></i>About Us</a></li>
 			</ul>
 			<ul class="attributes">
-				<li class="d-md-block d-none"><a href="registerPage.php" class="px-10 pt-15 pb-10"><div class="btn btn-primary py-5">Register Now</div></a></li>
+				<li class="d-md-block d-none"><a href="registerPage.php" class="px-10 pt-15 pb-10">
+						<div class="btn btn-primary py-5">Register Now</div>
+					</a></li>
 				<li><a href="#" class="toggle-search-fullscreen"><span class="ti-search"></span></a></li>
-				
+
 			</ul>
 
 			<div class="wrap-search-fullscreen">
@@ -93,7 +100,7 @@ require "adminRegister.php";
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<div class="text-center">						
+					<div class="text-center">
 						<h2 class="page-title text-white">Register</h2>
 						<ol class="breadcrumb bg-transparent justify-content-center">
 							<li class="breadcrumb-item"><a href="#" class="text-white-50"><i class="mdi mdi-home-outline"></i></a></li>
@@ -105,7 +112,7 @@ require "adminRegister.php";
 		</div>
 	</section>
 	<!--Page content -->
-	
+
 	<section class="py-50">
 		<div class="container">
 			<div class="row justify-content-center g-0">
@@ -113,70 +120,70 @@ require "adminRegister.php";
 					<div class="box box-body">
 						<div class="content-top-agile pb-0 pt-20">
 							<h2 class="text-primary">Get started with Us</h2>
-							<p class="mb-0">Register a New Membership</p>							
+							<p class="mb-0">Register a New Membership</p>
 						</div>
 						<div class="p-40">
 							<form action="adminRegisterPage.php" method="post">
 								<div class="form-group">
 									<div class="input-group mb-15">
 										<span class="input-group-text bg-transparent"><i class="ti-user"></i></span>
-										<input type="text" name = "fullName" class="form-control ps-15 bg-transparent" placeholder="Full Name" required>
+										<input type="text" name="fullName" class="form-control ps-15 bg-transparent" placeholder="Full Name" required>
 									</div>
 								</div>
 								<div class="form-group">
 									<div class="input-group mb-15">
 										<span class="input-group-text bg-transparent"><i class="ti-email"></i></span>
-										<input type="email" name = "userMail" class="form-control ps-15 bg-transparent" placeholder="Email" required>
+										<input type="email" name="userMail" class="form-control ps-15 bg-transparent" placeholder="Email" required>
 									</div>
 								</div>
 								<div class="form-group">
 									<div class="input-group mb-15">
 										<span class="input-group-text bg-transparent"><i class="ti-lock"></i></span>
-										<input type="password" name = "pass1" class="form-control ps-15 bg-transparent" placeholder="Password" required>
+										<input type="password" name="pass1" class="form-control ps-15 bg-transparent" placeholder="Password" required>
 									</div>
 								</div>
 								<div class="form-group">
 									<div class="input-group mb-15">
 										<span class="input-group-text bg-transparent"><i class="ti-lock"></i></span>
-										<input type="password" name = "pass2" class="form-control ps-15 bg-transparent" placeholder="Retype Password" required>
+										<input type="password" name="pass2" class="form-control ps-15 bg-transparent" placeholder="Retype Password" required>
 									</div>
 								</div>
-								  <div class="row">
+								<div class="row">
 									<div class="col-12">
-									  <div class="checkbox ms-5">
-										<!-- <input type="checkbox" id="basic_checkbox_1"> -->
-										<label for="basic_checkbox_1" class="form-label">Please Note: By choosing to Register, you are agreeing to the <a href="#" class="text-warning"><b>Terms and Conditions</b></a>.</label>
-									  </div>
+										<div class="checkbox ms-5">
+											<!-- <input type="checkbox" id="basic_checkbox_1"> -->
+											<label for="basic_checkbox_1" class="form-label">Please Note: By choosing to Register, you are agreeing to the <a href="#" class="text-warning"><b>Terms and Conditions</b></a>.</label>
+										</div>
 									</div>
 									<!-- /.col -->
 									<div class="col-12 text-center">
-									  <button type="submit" name = "userRegister" class="btn btn-info w-p100 mt-15">Register</button></br>
-									  <h5></h5>
-									  <h5 style="text-decoration: underline; color: red;"><?php echo $errors; ?></h5>
-									  <h5 style="text-decoration: underline; color: red;"><?php	echo $passError; ?></h5>
-									  <h5 style="text-decoration: underline; color: red;"><?php echo $processError; ?></h5>
+										<button type="submit" name="userRegister" class="btn btn-info w-p100 mt-15">Register</button></br>
+										<h5></h5>
+										<h5 style="text-decoration: underline; color: red;"><?php echo $errors; ?></h5>
+										<h5 style="text-decoration: underline; color: red;"><?php echo $passError; ?></h5>
+										<h5 style="text-decoration: underline; color: red;"><?php echo $processError; ?></h5>
 									</div>
 									<!-- /.col -->
-								  </div>
-							</form>				
+								</div>
+							</form>
 							<div class="text-center">
 								<p class="mt-15 mb-0">Already have an account?<a href="loginPage.php" class="text-danger ms-5"> Log In</a></p>
 							</div>
 						</div>
-					</div>								
+					</div>
 
 					<div class="text-center">
-					  <p class="mt-20">- Register With -</p>
-					  <p class="d-flex gap-items-2 mb-0 justify-content-center">
-						  <a class="btn btn-social-icon btn-round btn-facebook" href="#"><i class="fa fa-facebook"></i></a>
-						  <a class="btn btn-social-icon btn-round btn-twitter" href="#"><i class="fa fa-twitter"></i></a>
-						  <a class="btn btn-social-icon btn-round btn-instagram" href="#"><i class="fa fa-instagram"></i></a>
-						</p>	
+						<p class="mt-20">- Register With -</p>
+						<p class="d-flex gap-items-2 mb-0 justify-content-center">
+							<a class="btn btn-social-icon btn-round btn-facebook" href="#"><i class="fa fa-facebook"></i></a>
+							<a class="btn btn-social-icon btn-round btn-twitter" href="#"><i class="fa fa-twitter"></i></a>
+							<a class="btn btn-social-icon btn-round btn-instagram" href="#"><i class="fa fa-instagram"></i></a>
+						</p>
 					</div>
 				</div>
 			</div>
 		</div>
-	</section>	
+	</section>
 	<section class="bg-light py-30">
 		<div class="container">
 			<div class="row align-items-center">
@@ -186,26 +193,26 @@ require "adminRegister.php";
 						<p class="mb-0">Exclusive multi-purpose lightweight responsive with powerful features.</p>
 					</div>
 				</div>
-				<div class="col-md-3 col-12">					
-					 <div class="text-md-end text-center mt-30 mt-md-0">
-						<a class="btn btn-primary" href="#">Purchase Now</a> 
-					 </div>
+				<div class="col-md-3 col-12">
+					<div class="text-md-end text-center mt-30 mt-md-0">
+						<a class="btn btn-primary" href="#">Purchase Now</a>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	
+
 	<footer class="footer_three">
 		<div class="footer-top bg-dark3 pt-50">
-            <div class="container">
-                <div class="row">
+			<div class="container">
+				<div class="row">
 					<div class="col-lg-3 col-12">
-                        <div class="widget">
-                            <h4 class="footer-title">About</h4>
+						<div class="widget">
+							<h4 class="footer-title">About</h4>
 							<hr class="bg-primary mb-10 mt-0 d-inline-block mx-auto w-60">
 							<p class="text-capitalize mb-20">Bringing the crypto world closer to home, ensuring you're included in this market.<br><br>Help us help you. Register today.</p>
-                        </div>
-                    </div>											
+						</div>
+					</div>
 					<div class="col-lg-3 col-12">
 						<div class="widget">
 							<h4 class="footer-title">Contact Info</h4>
@@ -216,21 +223,21 @@ require "adminRegister.php";
 								<li> <i class="fa fa-envelope"></i> <span>thelpishelpdesk@gmail.com </span></li>
 							</ul>
 						</div>
-					</div>					
+					</div>
 					<div class="col-12 col-lg-3">
-                        <div class="widget footer_widget clearfix">
-                            <h4 class="footer-title">Our Gallery</h4>
+						<div class="widget footer_widget clearfix">
+							<h4 class="footer-title">Our Gallery</h4>
 							<hr class="bg-primary mb-10 mt-0 d-inline-block mx-auto w-60">
-                            <ul class="list-unstyled">
+							<ul class="list-unstyled">
 								<li><a href="index3.html">Home</a></li>
 								<li><a href="blog_grid_2.html">Blog</a></li>
 								<li><a href="contact_us.html">Contact</a></li>
 							</ul>
-                        </div>
-                    </div>
+						</div>
+					</div>
 					<div class="col-lg-3 col-12">
-                        <div class="widget">
-                            <h4 class="footer-title">Accept Card Payments</h4>
+						<div class="widget">
+							<h4 class="footer-title">Accept Card Payments</h4>
 							<hr class="bg-primary mb-10 mt-0 d-inline-block mx-auto w-60">
 							<ul class="payment-icon list-unstyled d-flex gap-items-1">
 								<li class="ps-0">
@@ -249,9 +256,9 @@ require "adminRegister.php";
 									<a href="javascript:;"><i class="fa fa-cc-paypal" aria-hidden="true"></i></a>
 								</li>
 							</ul>
-                            <h4 class="footer-title mt-20">Newsletter</h4>
+							<h4 class="footer-title mt-20">Newsletter</h4>
 							<hr class="bg-primary mb-4 mt-0 d-inline-block mx-auto w-60">
-                            <div class="mb-20">
+							<div class="mb-20">
 								<form class="" action="" method="post">
 									<div class="input-group">
 										<input name="email" required="required" class="form-control" placeholder="Your Email Address" type="email">
@@ -259,15 +266,15 @@ require "adminRegister.php";
 									</div>
 								</form>
 							</div>
-                        </div>
-                    </div>
-                </div>				
-            </div>
-        </div>		
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="footer-bottom bg-dark3">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-6 col-12 text-md-start text-center"> © 2021 <span class="text-white"> Thelpis Capital</span>  All Rights Reserved.</div>
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-md-6 col-12 text-md-start text-center"> © 2021 <span class="text-white"> Thelpis Capital</span> All Rights Reserved.</div>
 					<div class="col-md-6 mt-md-0 mt-20">
 						<div class="social-icons">
 							<ul class="list-unstyled d-flex gap-items-1 justify-content-md-end justify-content-center">
@@ -275,25 +282,26 @@ require "adminRegister.php";
 							</ul>
 						</div>
 					</div>
-                </div>
-            </div>
-        </div>
+				</div>
+			</div>
+		</div>
 	</footer>
-	
-	
+
+
 	<!-- Vendor JS -->
-	<script src="js/vendors.min.js"></script>	
+	<script src="js/vendors.min.js"></script>
 	<!-- Corenav Master JavaScript -->
-    <script src="corenav-master/coreNavigation-1.1.3.js"></script>
-    <script src="js/nav.js"></script>
+	<script src="corenav-master/coreNavigation-1.1.3.js"></script>
+	<script src="js/nav.js"></script>
 	<script src="../assets/vendor_components/bootstrap-select/dist/js/bootstrap-select.js"></script>
-	
+
 	<!-- CryptoCurrency front end -->
 	<script src="js/template.js"></script>
-	
-	
-	
+
+
+
 </body>
+
 </html>
 
 ?>
