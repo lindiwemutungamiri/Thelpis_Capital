@@ -61,7 +61,7 @@ if(!isset($_SESSION['user']) || $_SESSION['user'] !== "Entry allowed"){
 									<div class="col-lg-3 col-3">
 										<ul class="list-group">
 											<li><h4 class="menu-title">Academy</h4></li>
-											<li><a href="academy.html"><i class="ti-arrow-circle-right me-10"></i>Academy</a></li>
+											<li><a href="academyNana.php"><i class="ti-arrow-circle-right me-10"></i>Academy</a></li>
 											<li><a href="loginPage.php"><i class="ti-arrow-circle-right me-10"></i>Login</a></li>
 											<li><a href="register_login.html"><i class="ti-arrow-circle-right me-10"></i>Register & Login</a></li>
 											<li><a href="forgot_pass.html"><i class="ti-arrow-circle-right me-10"></i>Forgot Password</a></li>
