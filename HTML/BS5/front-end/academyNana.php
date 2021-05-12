@@ -1,6 +1,9 @@
 <?php 
 
 require "database_connect.php";
+if(!isset($_SESSION['user']) || $_SESSION['user'] !== "Entry allowed"){
+	header("location:loginPage.php");
+}
 
 ?>
 
