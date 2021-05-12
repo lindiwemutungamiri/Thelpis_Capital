@@ -31,9 +31,9 @@ require "adminLogin.php";
 	<header>
 		<nav hidden class="nav-white nav-transparent dark-overlay">
 			<div class="nav-header">
-				<a href="index3.html" class="brand">
+				<!-- <a href="index3.html" class="brand">
 					<li>Thelpis Capital</li>
-				</a>
+				</a> -->
 				<button class="toggle-bar">
 					<span class="ti-menu"></span>
 				</button>
@@ -45,7 +45,7 @@ require "adminLogin.php";
 				<li><a href="live_coin.html">Live Coin Chart</a></li>
 				<li>
 					<a onclick="addElement();">Buy &amp; Sell</a>
-					<div id="confirm">
+					<!-- <div id="confirm">
 						<div class="message" style="text-align: center; padding-top: 50px; font-size: 16px;">You are about to be redirected to Paxful.</div><br>
 						<button class="yes"><a href="https://paxful.com" class="px-10 pt-15 pb-10" target="_blank">
 								<div class="btn btn-primary py-5">Yes, redirect</div>
@@ -53,7 +53,7 @@ require "adminLogin.php";
 						<button class="yes"><a href="index3.html" class="px-10 pt-15 pb-10">
 								<div class="btn btn-primary py-5">Stay on Page</div>
 							</a></button>
-					</div>
+					</div> -->
 				</li>
 				<li class="megamenu">
 					<a href="#">User Pages</a>

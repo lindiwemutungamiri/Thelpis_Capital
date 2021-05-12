@@ -136,10 +136,13 @@ if (!$exec) {
 			?>
 			<div style = "margin-top: 10px;" >
 				<!--Page content -->
-				<div class="row">
-					<div class="col-12">
-						<h2>Tutorial Blogs</h2>
-						<hr>
+				<div class="container">
+
+					<div class="row">
+						<div class="col-12">
+							<h2>Blog Tutorials </h2>
+							<hr>
+						</div>
 					</div>
 				</div>
 				<div class="row">
