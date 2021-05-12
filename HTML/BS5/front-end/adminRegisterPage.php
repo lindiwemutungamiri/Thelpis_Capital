@@ -167,7 +167,7 @@ require "adminRegister.php";
 								</div>
 							</form>
 							<div class="text-center">
-								<p class="mt-15 mb-0">Already have an account?<a href="loginPage.php" class="text-danger ms-5"> Log In</a></p>
+								<p class="mt-15 mb-0">Already have an account?<a href="adminLoginPage.php" class="text-danger ms-5"> Log In</a></p>
 							</div>
 						</div>
 					</div>

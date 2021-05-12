@@ -1,8 +1,8 @@
 <?php 
 
 require "database_connect.php";
-
-if(!isset($_SESSION['user']) || $_SESSION['user'] !== "Entry allowed"){
+session_start();
+if(!isset($_SESSION['user']) || !isset($_SESSION['admin'])){
 	header("location:loginPage.php");
 }
 $query = "SELECT * FROM data";
